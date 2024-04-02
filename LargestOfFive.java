@@ -1,12 +1,21 @@
-public class LargestOfFive{
-    public static void main(String[] args) {
-        int a=5,b=2,c=53,d=8,e=1;
-		int res,res1,res2,res3;
-		res =a>b?a:b;
-		res1=res>c?res:c;
-		res2=res1>d?res1:d;
-		res3=res2>e?res2:e;
-    System.out.println( res3 + " is largest");
-        
-    }
+class  LargestOfFive{
+	public static void main(String[] args) {
+		int a=10,b=30,c=50,d=40,e=43;
+		if (a>b && a>c && a>d && a>e)
+		{
+			System.out.println("a is largest");
+		}
+		else if(b>a && b>c && b>d && b>e){
+			System.out.println("b is largest");
+		}
+		else if(c>a && c>b && c>d && c>e){
+			System.out.println("c is largest");
+		}
+		else if(d>a && d>b && d>c && d>e){
+			System.out.println("d is largest");
+		}
+		else if(e>a && e>b && e>c && e>d){
+			System.out.println("e is largest");
+		}
+	}
 }
